@@ -1,7 +1,7 @@
 export default {
   async fetch(req) {
     try {
-      const TARGET_HOST = 'zz.sdbuild.me';
+      const TARGET_HOST = 'ravi.ravikumar.live';
       const TARGET_URL = `https://${TARGET_HOST}`;
 
       const url = new URL(req.url);
